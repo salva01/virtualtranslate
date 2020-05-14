@@ -63,7 +63,7 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 		if(IsPlayerInDynamicArea(playerid, gQuestSaimon))
 		{
 		    if(PI[playerid][pQuest] == 1 && PI[playerid][pQuestStatus] == 0 && PI[playerid][pQuestProcess] == 0)
-				ShowPlayerDialogEx(playerid, 1050, DIALOG_STYLE_MSGBOX, !"Саймон", !"{FFFFFF}Эй, человек, постой.\nЯ смотрю, ты только приехал сюда. Ты уже думал о том, как будешь зарабатывать на жизнь?\nЕсли что, у меня как раз есть работенка для тебя.\nЗдесь недалеко строят дорогу, им не помешают работники, заодно и денежку накопишь\n\n{AFAFAF}Задача: Перенести 20 тележек со щебнем\nНаграда: 3750$ и 1 ехр", !"Принять", !"Отмена");
+				ShowPlayerDialogEx(playerid, 1050, DIALOG_STYLE_MSGBOX, !"Davit", !"{FFFFFF}Эй, человек, постой.\nЯ смотрю, ты только приехал сюда. Ты уже думал о том, как будешь зарабатывать на жизнь?\nЕсли что, у меня как раз есть работенка для тебя.\nЗдесь недалеко строят дорогу, им не помешают работники, заодно и денежку накопишь\n\n{AFAFAF}Задача: Перенести 20 тележек со щебнем\nНаграда: 3750$ и 1 ехр", !"Принять", !"Отмена");
 
 			else if(PI[playerid][pQuest] == 1 && PI[playerid][pQuestStatus] != 0 && PI[playerid][pQuestProcess] != 20)
 			{
